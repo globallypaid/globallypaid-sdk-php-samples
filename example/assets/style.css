@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+#gpg-form-container{
+    width:560px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.responseContainer{
+    width:560px;
+    height:auto;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.error{
+    background-color: #f1b0b7;
+}
+.success{
+    text-align: center;
+    background-color: #c3e6cb;
+}
