@@ -10,7 +10,7 @@ require_once 'config.php';
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/@globallypaid/js-sdk@latest"></script>
   <script>
-      const gpg = new GloballyPaidSDK('<?php echo $config['ApiKey'];?>');
+      const gpg = new GloballyPaidSDK('<?php echo $config['PublishableApiKey'];?>');
       const cardForm = gpg.createForm('card-extended',
       {
         style: {
