@@ -15,13 +15,13 @@ Copy example from zip file into your web server document root
 Change `config.php` file with data from your GloballyPaid merchant account
 
 ```php
-//required config              
-$config['ApiKey']              = 'ApiKey_here';
-$config['SharedSecretAPIKey']  = 'SharedSecretAPIKey_here';
-$config['AppKey']              = 'AppKey_here';
+//required config
+$config['PublishableApiKey']    = 'PublishableApiKey_here';
+$config['AppId']                = 'AppId_here';
+$config['SharedSecret']         = 'SharedSecret_here';
+$config['Sandbox']              = true;
 
 //optional config
-//$config['Sendbox']             = true;
 //$config['ApiVersion']          = 'v1'; //default v1
 //$config['RequestTimeout']      = 10; //default 30
 ```
